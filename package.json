@@ -1,0 +1,26 @@
+{
+  "name": "festival-de-musica",
+  "version": "1.0.0",
+  "description": "SASS Y NPM",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:dist/css",
+    "dev": "gulp"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "author": "Carlos Solis",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^11.0.1",
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.83.4",
+    "sharp": "^0.33.5"
+  }
+}
